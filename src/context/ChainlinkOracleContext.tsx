@@ -234,10 +234,10 @@ export const ChainlinkOraclePanel = () => {
         </div>
       </div>
 
-      {/* Hotel Metrics */}
+      {/* Mall Metrics */}
       <div className="bg-gray-800/30 rounded-lg p-4">
         <div className="flex items-center justify-between mb-4">
-          <h4 className="text-white font-semibold">Hotel Performance Metrics</h4>
+          <h4 className="text-white font-semibold">Mall Performance Metrics</h4>
           <button
             onClick={() => updateHotelMetrics("1")}
             disabled={loading}

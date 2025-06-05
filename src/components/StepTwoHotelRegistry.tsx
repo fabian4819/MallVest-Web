@@ -76,11 +76,11 @@ function StepTwoHotelRegistry() {
         </div>
       </div>
 
-      {/* Hotel Query Section */}
+      {/* Mall Query Section */}
       <div className="bg-gray-800/50 border border-gray-700/50 rounded-xl p-6">
         <h3 className="text-white font-semibold mb-4 flex items-center">
           <MapPin className="w-5 h-5 mr-2 text-blue-400" />
-          Query Hotel Information
+          Query Mall Information
         </h3>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -115,7 +115,7 @@ function StepTwoHotelRegistry() {
           <div className="bg-gray-700/30 rounded-lg p-4">
             <h4 className="text-white font-medium mb-3 flex items-center">
               <Building2 className="w-4 h-4 mr-2 text-indigo-400" />
-              Hotel Details
+              Mall Details
             </h4>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
@@ -171,15 +171,15 @@ function StepTwoHotelRegistry() {
         </div>
       </div>
 
-      {/* Register New Hotel */}
+      {/* Register New Mall */}
       <div className="bg-gradient-to-r from-indigo-900/30 to-purple-900/30 border border-indigo-500/30 rounded-xl p-6">
         <div className="flex items-center space-x-3 mb-6">
           <div className="w-10 h-10 bg-indigo-500/20 rounded-xl flex items-center justify-center">
             <Building2 className="w-5 h-5 text-indigo-400" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-white">Register New Hotel</h3>
-            <p className="text-gray-400">Add your hotel property to the blockchain</p>
+            <h3 className="text-xl font-bold text-white">Register New Mall</h3>
+            <p className="text-gray-400">Add your mall property to the blockchain</p>
           </div>
         </div>
 
@@ -187,14 +187,14 @@ function StepTwoHotelRegistry() {
           <div className="space-y-2">
             <label className="text-sm text-gray-400 flex items-center">
               <Building2 className="w-4 h-4 mr-1" />
-              Hotel Name
+              Mall Name
             </label>
             <input
               disabled={loading}
               type="text"
               value={hotelName}
               onChange={(e) => setHotelName(e.target.value)}
-              placeholder="e.g., Grand Plaza Hotel"
+              placeholder="e.g., Grand Plaza Mall"
               className="w-full bg-gray-700/50 border border-gray-600/50 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-indigo-500/50 focus:outline-none transition-colors disabled:opacity-50"
             />
           </div>
@@ -268,10 +268,10 @@ function StepTwoHotelRegistry() {
           {loading ? (
             <div className="flex items-center justify-center">
               <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2"></div>
-              Registering Hotel...
+              Registering Mall...
             </div>
           ) : (
-            "Register Hotel"
+            "Register Mall"
           )}
         </button>
       </div>

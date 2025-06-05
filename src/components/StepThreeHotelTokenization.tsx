@@ -58,11 +58,11 @@ function StepThreeHotelTokenization() {
 
   return (
     <div className="space-y-6">
-      {/* Hotel ID Input */}
+      {/* Mall ID Input */}
       <div className="bg-gray-800/50 border border-gray-700/50 rounded-xl p-6">
         <h3 className="text-white font-semibold mb-4 flex items-center">
           <Building2 className="w-5 h-5 mr-2 text-emerald-400" />
-          Select Hotel
+          Select Mall
         </h3>
         <div className="flex space-x-4">
           <input
@@ -70,7 +70,7 @@ function StepThreeHotelTokenization() {
             type="text"
             value={hotelId}
             onChange={(e) => setHotelId(e.target.value)}
-            placeholder="Enter Hotel ID"
+            placeholder="Enter Mall ID"
             className="flex-1 bg-gray-700/50 border border-gray-600/50 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-emerald-500/50 focus:outline-none transition-colors disabled:opacity-50"
           />
           <button

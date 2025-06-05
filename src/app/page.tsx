@@ -30,12 +30,12 @@ export default function Home() {
               <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">
                 MallVest
               </h1>
-              <p className="text-gray-400 text-lg">Hotel Tokenization Platform</p>
+              <p className="text-gray-400 text-lg">Mall Tokenization Platform</p>
             </div>
           </div>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Revolutionizing hotel investments through blockchain technology. 
-            Tokenize, trade, and manage hotel properties with unprecedented transparency and efficiency.
+            Revolutionizing Mall investments through blockchain technology. 
+            Tokenize, trade, and manage mall properties with unprecedented transparency and efficiency.
           </p>
           
           {/* Feature badges */}
@@ -67,7 +67,7 @@ export default function Home() {
             <h3 className="text-white font-semibold">Getting Started</h3>
           </div>
           <p className="text-gray-300 mb-4">
-            Follow these steps to start your hotel tokenization journey. Click on each step to expand and interact with the platform.
+            Follow these steps to start your mall tokenization journey. Click on each step to expand and interact with the platform.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
             <div className="flex items-center space-x-2">
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-6 h-6 bg-indigo-500/20 rounded-full flex items-center justify-center text-indigo-400 font-semibold">2</div>
-              <span className="text-gray-400">Register your hotel property</span>
+              <span className="text-gray-400">Register your mall property</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-6 h-6 bg-emerald-500/20 rounded-full flex items-center justify-center text-emerald-400 font-semibold">3</div>
@@ -125,7 +125,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Step 2: Register Hotel */}
+          {/* Step 2: Register Mall */}
           <div className="bg-gradient-to-r from-indigo-600/20 to-purple-600/20 border border-indigo-500/30 rounded-2xl overflow-hidden">
             <div
               className="p-6 cursor-pointer hover:bg-white/5 transition-colors"
@@ -138,9 +138,9 @@ export default function Home() {
                   </div>
                   <div>
                     <h2 className="text-xl font-bold text-white mb-1">
-                      Step 2: Register Hotel
+                      Step 2: Register Mall
                     </h2>
-                    <p className="text-gray-300">Add your hotel property to the blockchain</p>
+                    <p className="text-gray-300">Add your mall property to the blockchain</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Step 3: Tokenized Hotel */}
+          {/* Step 3: Tokenized Mall */}
           <div className="bg-gradient-to-r from-emerald-600/20 to-teal-600/20 border border-emerald-500/30 rounded-2xl overflow-hidden">
             <div
               className="p-6 cursor-pointer hover:bg-white/5 transition-colors"
@@ -178,9 +178,9 @@ export default function Home() {
                   </div>
                   <div>
                     <h2 className="text-xl font-bold text-white mb-1">
-                      Step 3: Tokenized Hotel
+                      Step 3: Tokenized Mall
                     </h2>
-                    <p className="text-gray-300">Manage your tokenized hotel investments</p>
+                    <p className="text-gray-300">Manage your tokenized mall investments</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">

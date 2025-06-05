@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { WalletProvider } from "@/context/WalletContext";
 import { LoadingProvider } from "@/context/LoadingContext";
+import { ChainlinkOracleProvider } from "@/context/ChainlinkOracleContext";
 
 declare global {
   interface Window {
@@ -22,8 +23,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LaLoChain Mock FE",
-  description: "Made by ChaiNova"
+  title: "MallVest - Mall Income Tokenization",
+  description: "Revolutionizing mall investments through blockchain technology"
 };
 
 export default function RootLayout({
@@ -34,10 +35,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950`}
       >
         <LoadingProvider>
-          <WalletProvider>{children}</WalletProvider>
+          <WalletProvider>
+            <ChainlinkOracleProvider>
+              {children}
+            </ChainlinkOracleProvider>
+          </WalletProvider>
         </LoadingProvider>
       </body>
     </html>

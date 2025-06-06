@@ -3,25 +3,26 @@ import LaLoHotelTokenization from "./json/LaLoHotelTokenization.json";
 import LaLoHotelRegistry from "./json/LaLoHotelRegistry.json";
 import { ContractType, ABISingle, AvailableContracts } from "./types";
 
-// MockUSDC deployed at: 0x1D5eb37CA674f99B75CC974D4cBBE62AFE98C402
-// LaLoTokenFactory deployed at: 0x0a4721b4156f34B934121616FCbCF1A3Cb049406
-// HotelRegistry deployed at: 0x515241414aC4Fd32f43C3B4Efd66074320456B2b
-// HotelTokenization deployed at: 0x11e9d3316746494Fa5dAa42f9F58094F50d83911
+// == Logs ==
+//   MockUSDC deployed at: 0xC425c96B30BF8a9190E7A273D990a6a8B6F49C3b
+//   LaLoTokenFactory deployed at: 0x67479A2F63ecAc78fb52D696df7D7455e2347983
+//   HotelRegistry deployed at: 0xc84D1e8FECaDa44487242E5D855AEE7F752A12EA
+//   HotelTokenization deployed at: 0x2dFf6D5eB709b368df0c11bd80209eB92591658c
 
 const contracts: ContractType[] = [
   {
     name: "MockUSDC",
-    address: "0x1D5eb37CA674f99B75CC974D4cBBE62AFE98C402",
+    address: "0xC425c96B30BF8a9190E7A273D990a6a8B6F49C3b",
     abi: MockUSDC.abi as ABISingle[]
   },
   {
     name: "LaLoHotelRegistry",
-    address: "0x515241414aC4Fd32f43C3B4Efd66074320456B2b",
+    address: "0xc84D1e8FECaDa44487242E5D855AEE7F752A12EA",
     abi: LaLoHotelRegistry.abi as ABISingle[]
   },
   {
     name: "LaLoHotelTokenization",
-    address: "0x11e9d3316746494Fa5dAa42f9F58094F50d83911",
+    address: "0x2dFf6D5eB709b368df0c11bd80209eB92591658c",
     abi: LaLoHotelTokenization.abi as ABISingle[]
   }
 ];

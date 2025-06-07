@@ -19,7 +19,8 @@ export type ABISingle = {
 export type AvailableContracts =
   | "MockUSDC"
   | "LaLoHotelRegistry"
-  | "LaLoHotelTokenization";
+  | "LaLoHotelTokenization"
+  | "RevenueOracle";
 
 export type ABI = ABISingle[];
 
